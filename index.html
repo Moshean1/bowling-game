@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لعبة البولينج 🎳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎳 لعبة البولينج</h1>
+
+<div class="lane">
+  <div class="ball" id="ball"></div>
+
+  <div class="pins" id="pins">
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+    <div class="pin"></div>
+  </div>
+</div>
+
+<p>النتيجة: <span id="score">0</span></p>
+
+<button onclick="rollBall()">ارمِ الكرة 🎱</button>
+<button onclick="resetGame()">إعادة اللعب 🔄</button>
+
+<script src="script.js"></script>
+</body>
+</html>
